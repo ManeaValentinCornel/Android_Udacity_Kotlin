@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">05_Activity</string>
+    <string name="sharing_not_available">There is no activity with that ...</string>
+    <string name="share_text">Share</string>
+    <string name="share">Share</string>
+    <string name="zero">0</string>
+    <string name="add">Add</string>
+</resources>

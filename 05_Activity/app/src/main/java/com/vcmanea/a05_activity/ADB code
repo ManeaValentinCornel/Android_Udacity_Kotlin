@@ -1,0 +1,4 @@
+adb shell
+//kill your app, but only if it is in the background
+//process related shutdowns state loss
+adb shell am kill com.vcmanea.a05_activity
