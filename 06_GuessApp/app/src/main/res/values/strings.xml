@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GuessApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guess_the_world_game">Guess the world game</string>
+    <string name="guess_the_world">Guess the world</string>
+    <string name="gotit_btn">GOT IT</string>
+    <string name="skip_btn">SKIP</string>
+    <string name="scoreTxt">Your score is: %d</string>
+    <string name="playagainBtn">PLAY AGAIN</string>
+    <string name="startBtn">START</string>
+</resources>
