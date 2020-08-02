@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sleepquality.SleepQualityFragment">
+
+
+    <TextView
+        android:id="@+id/title_qualityTxt"
+        style="@style/MyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/sleep_txt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+
+        android:id="@+id/imageZero"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_sleep_0"
+        app:layout_constraintStart_toStartOf="@+id/title_qualityTxt"
+        app:layout_constraintTop_toBottomOf="@+id/title_qualityTxt" />
+
+    <ImageView
+        android:id="@+id/imageOne"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/ic_sleep_1"
+        app:layout_constraintStart_toEndOf="@+id/imageZero"
+        app:layout_constraintTop_toTopOf="@+id/imageZero" />
+
+    <ImageView
+        android:id="@+id/imageTwo"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/ic_sleep_2"
+        app:layout_constraintStart_toEndOf="@+id/imageOne"
+        app:layout_constraintTop_toTopOf="@+id/imageZero" />
+
+    <ImageView
+        android:id="@+id/imageThree"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_sleep_3"
+        app:layout_constraintStart_toStartOf="@+id/imageZero"
+        app:layout_constraintTop_toBottomOf="@+id/imageZero" />
+
+    <ImageView
+        android:id="@+id/imageFour"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_sleep_4"
+        app:layout_constraintStart_toEndOf="@+id/imageThree"
+        app:layout_constraintTop_toBottomOf="@+id/imageOne" />
+
+    <ImageView
+        android:id="@+id/imageFive"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_sleep_5"
+        app:layout_constraintStart_toEndOf="@+id/imageFour"
+        app:layout_constraintTop_toBottomOf="@+id/imageTwo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
