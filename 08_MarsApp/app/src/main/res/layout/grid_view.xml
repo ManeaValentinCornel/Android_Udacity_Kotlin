@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="property"
+            type="com.vcmanea.a08_marsapp.network.MarsProperty" />
+    </data>
+    
+    <ImageView
+        android:id="@+id/mars_image"
+        android:padding="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:adjustViewBounds="true"
+        android:paddingBottom="2dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        app:imgUrl="@{property.imgSrcUrl}">
+
+    </ImageView>
+</layout>
